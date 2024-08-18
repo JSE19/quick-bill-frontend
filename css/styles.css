@@ -1,0 +1,118 @@
+
+.footer{
+    width: 100%;
+    /* position: absolute; */
+    bottom: 0;
+    background: linear-gradient(226deg, #1B4C69 0%, #71B9E3 100%);
+    color: #fff;
+    padding: 100px 0 30px;
+    font-size: 13px;
+    line-height: 20px;
+    
+}
+.row{
+    width:85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-start ;
+    justify-content: space-between;
+}
+.col{
+    flex-basis: 20%;
+    padding: 10px;
+}
+.col h3{
+    width: fit-content;
+    margin-bottom: 20px;
+    position: relative;
+}
+ul li{
+    list-style: none;
+    margin-bottom: 12px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+ 
+.logo{
+    width: 80px;
+    margin-bottom: 30px;
+
+}
+form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 250px;
+    font-size: 1em;
+    z-index: 1;
+}
+
+button[type="submit"] {
+    background-color: #ff7a29;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 20px;
+    cursor: pointer;
+    position: relative;
+    top: -2px; /* Adjust this value to move the button up */
+    left: -12px;
+    z-index: 2;
+    width: 40px;
+    height: 40px;
+    justify-items:center;
+    
+}
+
+button[type="submit"] img {
+    width: 20px;
+    height: 20px;
+    
+}
+
+.foot-socials img{
+    width: 40px;
+    height: 40px;
+   
+}
+.foot-socials p{
+    top: 20px;
+}
+
+.hr{
+    width:90%;
+    padding-left: 110px;
+}
+.footer-last {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 0; 
+    font-size: 11px;
+    width: 90%; 
+    padding-left: 110px;
+}
+
+.copyright,
+.terms-condition {
+    flex-basis: auto;
+}
+
+.terms-condition a {
+    text-decoration: none;
+    color: #fff; /* Adjust this to match your footer text color */
+}
+
+.terms-condition a:hover {
+    text-decoration: underline; /* Optional: adds underline on hover */
+}
