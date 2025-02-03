@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/sal.js@0.8.2/dist/sal.css" />
+    <link rel="stylesheet" href="css/preloader.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/hamburger.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <title>Quick Bill</title>
+    <link rel="icon" href="images/logo.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <section class="preloader">
+      <span class="loader"></span>
+    </section>
+    <section class="gencontainer">
+      <!-- <section class="loader"></section> -->
+      <section class="main lato-regular">
+        <section class="hero">
+          <nav class="navLeft">
+            <div class="navbar">
+              <div class="navLogo">
+                <img src="images/logo.svg" alt="logo" />
+              </div>
+
+              <ul class="navLinks">
+                <li class="nav-item">
+                  <a class="nav-link" href="#overview">Overview</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#how-it-works">How It Works</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#features">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#faq">FAQ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#testimonial">Testimonial</a>
+                </li>
+                <li>
+                  <a
+                    class="sign signmobile btn btn-outline-primary btn-signin"
+                    href="#about"
+                  >
+                    Download
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <a
+                class="sign signlaptop btn btn-outline-primary btn-signin"
+                href="#about"
+                style="text-decoration: none"
+              >
+                Download
+              </a>
+            </div>
+
+            <button class="hamburger hamburger--emphatic" type="button">
+              <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+              </span>
+            </button>
+          </nav>
+
+          <div class="container-custom">
+            <div class="slider" data-sal="slide-right" data-sal-duration="1000">
+              <div class="content">
+                <h1>
+                  All Your
+                  <span style="color: #e97525"
+                    >Payment <br />
+                    Solutions</span
+                  >
+                  In One App
+                </h1>
+                <p>
+                  Quickbill allows you to easily top-up airtime,
+                  <span class="hide-br"><br /></span> pay for electricity, and
+                  manage educational fees
+                  <span class="hide-br"><br /></span> all in one place. Enjoy
+                  seamless transactions and <span class="hide-br"><br /></span>
+                  stay connected, powered, and educated with just a few taps!
+                </p>
+              </div>
+              <div class="buttons">
+                <button class="btn btn-outline-primary">Get Started</button>
+                <button class="btn btn-primary">
+                  <img src="images/watch.svg" alt="" /> Watch Demo
+                </button>
+              </div>
+            </div>
+            <div
+              class="heroImage"
+              data-sal="slide-left"
+              data-sal-duration="1000"
+            >
+              <img src="images/heroImg.svg" alt="Phone" />
+            </div>
+          </div>
+        </section>
+
+        <!--0VERVIEW SECTION START-->
+        <section id="overview" class="sectionOverview">
+          <div class="container-customOverview">
+            <div class="trusted">
+              <p>Trusted by 20,000+ happy customers</p>
+            </div>
+
+            <div class="partners partners-slider" alt="">
+              <div class="partner-item">
+                <img src="images/microsoft.svg" alt="Microsoft" />
+              </div>
+              <div class="partner-item">
+                <img src="images/airbnb.svg" alt="Airbnb" />
+              </div>
+              <div class="partner-item">
+                <img src="images/slack.svg" alt="Slack" />
+              </div>
+              <div class="partner-item">
+                <img src="images/cocacola.svg" alt="Coca Cola" />
+              </div>
+              <div class="partner-item">
+                <img src="images/amazon.svg" alt="Amazon" />
+              </div>
+              <div class="partner-item">
+                <img src="images/spotify.svg" alt="Spotify" />
+              </div>
+              <div class="partner-item">
+                <img src="images/microsoft.svg" alt="Microsoft" />
+              </div>
+              <div class="partner-item">
+                <img src="images/airbnb.svg" alt="Airbnb" />
+              </div>
+              <div class="partner-item">
+                <img src="images/slack.svg" alt="Slack" />
+              </div>
+              <div class="partner-item">
+                <img src="images/cocacola.svg" alt="Coca Cola" />
+              </div>
+              <div class="partner-item">
+                <img src="images/amazon.svg" alt="Amazon" />
+              </div>
+              <div class="partner-item">
+                <img src="images/spotify.svg" alt="Spotify" />
+              </div>
+            </div>
+
+            <!-- SERVICE CARDS START -->
+            <div
+              class="service-cards"
+              data-sal="slide-up"
+              data-sal-duration="1000"
+            >
+              <div class="service-card">
+                <div class="icon">
+                  <img
+                    src="images/airtime.svg"
+                    alt="Bolt Icon"
+                    class="img-fluid service-card-icons"
+                  />
+                </div>
+                <h3>Airtime & Data</h3>
+                <p>
+                  Top up your mobile phone with airtime and data. Stay connected
+                  and enjoy seamless communication.
+                </p>
+              </div>
+              <div class="service-card">
+                <!-- <div class="circle-container">
+                    <img src="images/tv.svg" alt="Monitoring Icon">
+                </div> -->
+                <div class="icon">
+                  <img
+                    src="images/tv.svg"
+                    alt="Bolt Icon"
+                    class="img-fluid service-card-icons"
+                  />
+                </div>
+                <h3>TV Subscription</h3>
+                <p>
+                  Subscribe to your favorite TV services quickly and easily to
+                  enjoy uninterrupted entertainment.
+                </p>
+              </div>
+              <div class="service-card">
+                <div class="icon">
+                  <img
+                    src="images/bolt.svg"
+                    alt="Bolt Icon"
+                    class="img-fluid service-card-icons"
+                  />
+                </div>
+                <h3>Electricity</h3>
+                <p>
+                  Conveniently pay your electricity bills on time from the
+                  comfort of your home. Stay powered.
+                </p>
+              </div>
+              <div class="service-card">
+                <div class="icon">
+                  <img
+                    src="images/school.svg"
+                    alt="Bolt Icon"
+                    class="img-fluid service-card-icons"
+                  />
+                </div>
+                <h3>Education</h3>
+                <p>
+                  Access and pay for JAMB & WAEC pins swiftly, to support your
+                  learning journey.
+                </p>
+              </div>
+              <div class="service-card">
+                <div class="icon">
+                  <img
+                    src="images/flip_camera_android.svg"
+                    alt="Bolt Icon"
+                    class="img-fluid service-card-icons"
+                  />
+                </div>
+                <h3>Airtime Flip</h3>
+                <p>
+                  Easily convert excess airtime into cash. Enjoy the flexibility
+                  to manage your airtime and cash seamlessly.
+                </p>
+              </div>
+            </div>
+            <!-- SERVICE CARDS ENDS -->
+          </div>
+        </section>
+        <!--ABOUT SECTION START-->
+        <section id="about" class="section">
+          <div class="container-customAbout">
+            <div class="about-section">
+              <div
+                class="about-content"
+                data-sal="slide-right"
+                data-sal-duration="1000"
+              >
+                <h2>About Us</h2>
+                <div style="width: 100%" class="quick-pay">
+                  <span
+                    style="
+                      color: #1e1f24;
+
+                      font-weight: 700;
+                      word-wrap: break-word;
+                    "
+                    >Pay All Your Bills With <br /> </span
+                  ><span
+                    style="
+                      color: #e97525;
+
+                      font-weight: 700;
+                      word-wrap: break-word;
+                    "
+                    >Quickbill</span
+                  ><span
+                    style="
+                      color: #1e1f24;
+
+                      font-weight: 700;
+                      word-wrap: break-word;
+                    "
+                  >
+                    Solution</span
+                  >
+                </div>
+                <p>
+                  Quickbill lets you buy airtime and data, pay for electricity
+                  and education bills, and convert airtime to cash, all in one
+                  convenient app. Experience fast, reliable transactions and
+                  simplify your payments with Quickbill.
+                </p>
+                <ul>
+                  <li>
+                    <img src="images/good.svg" alt="" /> Fast and reliable
+                  </li>
+                  <li>
+                    <img src="images/good.svg" alt="" /> Quick, simple and
+                    intuitive design
+                  </li>
+                  <li>
+                    <img src="images/good.svg" alt="" /> Useful and usable for
+                    all customers
+                  </li>
+                </ul>
+                <div>
+                  <img
+                    src="images/appstore.svg"
+                    class="about-app-store"
+                    alt="Play Store"
+                  />
+                  <img
+                    src="images/applestore.svg"
+                    class="about-app-store"
+                    alt="App Store"
+                  />
+                </div>
+              </div>
+              <div
+                class="about-image"
+                data-sal="slide-left"
+                data-sal-duration="1000"
+              >
+                <img src="images/aboutimg.svg" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--ABOUT SECTION ENDS-->
+
+        <!--HOW IT WORKS SECTION START-->
+        <section
+          id="how-it-works"
+          class="section"
+          data-sal="slide-up"
+          data-sal-duration="1000"
+        >
+          <div class="container-customHow">
+            <div class="about-content">
+              <h2>How it works</h2>
+
+              <div>
+                <span>You Are Just 3 Steps Away From Getting </span
+                ><span style="color: #e97525; font-weight: 700">Started</span
+                ><span> With The App Of Your Dreams</span>
+              </div>
+            </div>
+            <div class="how-it-works-content">
+              <div class="how-it-works-item">
+                <div class="how-image">
+                  <img src="images/si.svg" alt="Sign Up For Free" />
+                </div>
+                <h3>Sign Up For Free</h3>
+                <p>
+                  Sign up for
+                  <span style="color: #e97525">Quickbill</span> using the
+                  requirements that will be provided for you. At no cost at all!
+                </p>
+              </div>
+              <div class="how-it-works-item">
+                <div class="how-image">
+                  <img src="images/verify.svg" alt="Verify Your Email" />
+                </div>
+                <h3>Verify Your Email</h3>
+                <p>
+                  Verify that the email address you signed up with belongs to
+                  you, by using the <span style="color: #e97525">OTP</span> that
+                  will be sent to you.
+                </p>
+              </div>
+              <div class="how-it-works-item">
+                <div class="how-image">
+                  <img src="images/startusing.svg" alt="Start Using App" />
+                </div>
+                <h3>Start Using App</h3>
+                <p>
+                  Enjoy seamless payment solutions with our app. All your needs
+                  are met in <span style="color: #e97525">quick</span> time.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--HOW IT WORKS SECTION END-->
+
+        <!--FEATURES SECTION START-->
+        <section
+          id="features"
+          class="sectionFeatures"
+          data-sal="slide-up"
+          data-sal-duration="1000"
+        >
+          <div class="container-customFeatures">
+            <div class="feature-content">
+              <h2>Features</h2>
+              <div>
+                <span
+                  style="
+                    color: #e97525;
+
+                    font-weight: 700;
+                    word-wrap: break-word;
+                  "
+                  >Quickbill</span
+                ><span
+                  style="
+                    color: #1e1f24;
+
+                    font-weight: 700;
+                    word-wrap: break-word;
+                  "
+                >
+                  allows for a variety of features and offers the below
+                  services</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="service-card">
+                <img src="images/globe.svg" alt="Icon" />
+                <h5>All in one place</h5>
+                <p>
+                  All of your payment solutions available in one app. Access a
+                  whole lot with just one tap.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-card">
+                <img src="images/start.svg" alt="Icon" />
+                <h5>Premium Design</h5>
+                <p>
+                  Access to a clean, simple and intuitive design. Design that is
+                  beautiful to use.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-card">
+                <img src="images/flip_camera_android.svg" alt="Icon" />
+                <h5>Free App Update</h5>
+                <p>
+                  Get free app updates sent directly to you. All new updates
+                  with notifications.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-card">
+                <img src="images/lock.svg" alt="Icon" />
+                <h5>Fully Secured</h5>
+                <p>
+                  Your account is fully secured with advanced technology and
+                  encryption. Only you can have access to your account.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-card">
+                <img src="images/sure.svg" alt="Icon" />
+                <h5>Sure Flexibility</h5>
+                <p>
+                  It is an all-in-one service that you can switch to your
+                  preference. For whatever reason.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-card">
+                <img src="images/wallet.svg" alt="Icon" />
+                <h5>Easy Funding</h5>
+                <p>
+                  Funding your wallet is super easy. Just a few clicks, and your
+                  funds are available for use.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--FEATURE SECTION END-->
+
+        <!-- FAQ SECTION START-->
+        <section id="faq" class="faqsection">
+          <div class="container">
+            <div
+              class="faq-img"
+              data-sal="slide-right"
+              data-sal-duration="1000"
+            >
+              <img src="images/faqimg.svg" alt="" />
+            </div>
+            <div
+              class="faq-content"
+              data-sal="slide-left"
+              data-sal-duration="1000"
+            >
+              <h2>FAQ</h2>
+              <h4>
+                We
+                <span style="color: #e97525"> Answer</span>
+                What you Might to know
+              </h4>
+              <div class="faq-container">
+                <div class="faq-item">
+                  <div class="faq-question">
+                    What exactly is Quickbill Solution?
+                    <span class="faq-toggle">+</span>
+                  </div>
+                  <div class="faq-answer">
+                    Quickbill Solution is a comprehensive platform that allows
+                    users to top-up airtime, pay for electricity, and manage
+                    educational fees all in one place.
+                  </div>
+                </div>
+                <div class="faq-item">
+                  <div class="faq-question">
+                    How do I sign up for a Quickbill account?
+                    <span class="faq-toggle">+</span>
+                  </div>
+                  <div class="faq-answer">
+                    To sign up for a Quickbill account, visit our website and
+                    click on the 'Sign Up' button. Fill in the required details
+                    and follow the instructions to complete your registration.
+                  </div>
+                </div>
+                <div class="faq-item">
+                  <div class="faq-question">
+                    What services does Quickbill offer?
+                    <span class="faq-toggle">+</span>
+                  </div>
+                  <div class="faq-answer">
+                    Quickbill offers services including airtime top-up,
+                    electricity bill payments, and educational fee management.
+                  </div>
+                </div>
+                <div class="faq-item">
+                  <div class="faq-question">
+                    Can I delete my account If I want to?
+                    <span class="faq-toggle">+</span>
+                  </div>
+                  <div class="faq-answer">
+                    Yes, you can delete your Quickbill account by contacting our
+                    support team. They will assist you in the process.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- FAQ  SECTION END-->
+
+        <!-- TESTIMONIAL START -->
+        <section
+          class="testimonials"
+          id="testimonial"
+          data-sal="slide-up"
+          data-sal-duration="1000"
+        >
+          <h2>Testimonials</h2>
+          <h5>
+            What Our <span style="color: #e97525">Awesome</span> Customers Has
+            to Say
+          </h5>
+          <section class="testimonial-items">
+            <div class="testimonial-item">
+              <div class="testimonial-img">
+                <img src="images/avatar.svg" alt="avatar" />
+              </div>
+              <div class="testimonial-text">
+                <h3>Janet Ifeoma</h3>
+                <h6>Entrepreneur</h6>
+                <p>
+                  “Initially, I was skeptical about using a new app for my
+                  payments, but QuickBill has far exceeded my expectations. The
+                  seamless integration of various payment options, from airtime
+                  and data purchases to paying utility bills , is incredibly
+                  convenient. The customer support is excellent, always ready to
+                  help with any queries. QuickBill has made my financial
+                  management so much easier and more efficient. It's a fantastic
+                  app that I would highly recommend to everyone!”
+                </p>
+              </div>
+            </div>
+            <div class="testimonial-item">
+              <div class="testimonial-img">
+                <img src="images/avatar.svg" alt="avatar" />
+              </div>
+              <div class="testimonial-text">
+                <h3>Janet Ifeoma</h3>
+                <h6>Entrepreneur</h6>
+                <p>
+                  “Initially, I was skeptical about using a new app for my
+                  payments, but QuickBill has far exceeded my expectations. The
+                  seamless integration of various payment options, from airtime
+                  and data purchases to paying utility bills , is incredibly
+                  convenient. The customer support is excellent, always ready to
+                  help with any queries. QuickBill has made my financial
+                  management so much easier and more efficient. It's a fantastic
+                  app that I would highly recommend to everyone!”
+                </p>
+              </div>
+            </div>
+          </section>
+        </section>
+        <!-- TESTIMONIAL END -->
+
+        <!-- CONTACT START -->
+
+        <section class="contact">
+          <div class="contact-items">
+            <h3>Quick Contact</h3>
+            <p>Get in touch with us</p>
+            <img src="images/Ellipse 1.svg" alt="" class="top" />
+            <form action="" id="contact-form" method="POST">
+              <input type="text" id="fullName" name="fullName" required placeholder="Enter your full name" />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your email"
+                required
+              />
+              <textarea
+                name="message"
+                id="message"
+                required
+                placeholder="Enter your message..."
+              ></textarea>
+              <div class="g-recaptcha" data-sitekey="6Lf12MsqAAAAADPSRAROxLBWjTjkkOosnKi9DAu7"></div>
+              <button type="submit">Send Message</button>
+            </form>
+            <img src="images/Ellipse2.svg" alt="" class="bottom" />
+            <div id="formMessage"></div>
+          </div>
+        </section>
+        <!-- CONTACT END -->
+
+        <!--FOOTER BEGIN-->
+        <section class="footer-foot">
+          <div class="top-footer">
+            <h2>Download the App <span style="color: #e97525">Now!</span></h2>
+            <p>Payment made easy. Just a tap away!</p>
+            <div class="footer-download-buttons">
+              <a href="#" class="google-play">
+                <img src="images/google.svg" alt="Google Play" />
+              </a>
+              <a href="#" class="app-store">
+                <img src="images/apps.svg" alt="App Store" />
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <footer class="footer">
+          <div class="footer-text-top">
+            <div class="footer-img-div">
+              <img src="images/logo.svg" alt="logo" class="logo" />
+              <p>
+                Quickbill allows you to easily top-up airtime, pay for
+                electricity, and manage educational fees all in one place. Enjoy
+                seamless transactions and stay connected, powered, and educated
+                with just a few taps!
+              </p>
+            </div>
+            <div class="footer-company">
+              <h3>Company</h3>
+              <ul>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#how-it-works">How it works</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#faq">FAQs</a></li>
+                <li><a href="#testimonial">Testimonials</a></li>
+              </ul>
+            </div>
+            <div class="footer-contact">
+              <h3>Contact Info</h3>
+              <p>+234 708 112 7049</p>
+              <p>quickbillsolution@gmail.com</p>
+              <p>Road 8, New City Avenue, New Owerri , Imo State, Nigeria</p>
+            </div>
+            <div class="footer-news">
+              <h3>Get the Latest News</h3>
+              <form class="footer-news-form">
+                <div class="footer-input">
+                  <input type="text" placeholder="Subscribe with your email" />
+                </div>
+                <div>
+                  <button type="submit">
+                    <img src="images/mail.svg" />
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="follow-us">
+            <h3>Follow Us</h3>
+            <div class="foot-socials">
+              <img src="images/ig logo.svg" />
+              <img src="images/fb logo.svg" />
+              <img src="images/linkedin logo.svg" />
+              <img src="images/x logo.svg" />
+            </div>
+            <p>@quickbill_solution</p>
+          </div>
+          <div class="footer-last">
+            <div class="copyright">
+              <p style="font-size: 13px">
+                Copyright © <span id="current-year"></span> Quickbill. All
+                rights reserved.
+              </p>
+            </div>
+            <div class="terms-condition">
+              <p style="font-size: 13px">
+                <a href="#">User terms and conditions</a> |
+                <a href="#">Privacy policy</a>
+              </p>
+            </div>
+          </div>
+        </footer>
+
+        <!--FOOTER ENDS-->
+      </section>
+      <button id="scrollToTop" title="Go to top">⬆</button>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+      // Get the current year
+      const currentYear = new Date().getFullYear();
+
+      // Set the current year in the footer
+      document.getElementById("current-year").textContent = currentYear;
+    </script>
+    <script>
+      $(document).ready(function () {
+        $(".partners-slider").slick({
+          slidesToShow: 5,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 3000,
+          responsive: [
+            {
+              breakpoint: 992, // screens less than 992px wide
+              settings: {
+                slidesToShow: 4,
+              },
+            },
+            {
+              breakpoint: 768, // screens less than 768px wide
+              settings: {
+                slidesToShow: 3,
+              },
+            },
+            {
+              breakpoint: 576, // screens less than 576px wide
+              settings: {
+                slidesToShow: 2,
+              },
+            },
+            {
+              breakpoint: 375, // screens less than 375px wide
+              settings: {
+                slidesToShow: 1,
+              },
+            },
+          ],
+        });
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        $(".testimonial-items").slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 3000,
+          responsive: [
+            {
+              breakpoint: 992, // screens less than 992px wide
+              settings: {
+                slidesToShow: 1,
+              },
+            },
+            {
+              breakpoint: 768, // screens less than 768px wide
+              settings: {
+                slidesToShow: 1,
+              },
+            },
+            {
+              breakpoint: 576, // screens less than 576px wide
+              settings: {
+                slidesToShow: 1,
+              },
+            },
+            {
+              breakpoint: 375, // screens less than 375px wide
+              settings: {
+                slidesToShow: 1,
+              },
+            },
+          ],
+        });
+      });
+
+      // Get the button element
+      const scrollToTopButton = document.getElementById("scrollToTop");
+
+      // Listen for scroll events to toggle button visibility
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 300) {
+          scrollToTopButton.style.display = "block";
+        } else {
+          scrollToTopButton.style.display = "none";
+        }
+      });
+
+      // Add click event to the button for scrolling to top
+      scrollToTopButton.addEventListener("click", () => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth", // Smooth scrolling
+        });
+      });
+
+      const genContainer = document.querySelector(".gencontainer");
+      const loader = document.querySelector(".preloader");
+      window.addEventListener("load", () => {
+        genContainer.style.display = "block";
+        loader.style.display = "none";
+      });
+    </script>
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/sal.js@0.8.2/dist/sal.js"></script>
+    <script>
+      sal({
+        threshold: 0.1,
+      });
+    </script>
+    <script>
+      document.querySelectorAll('.nav-link').forEach(link => {
+        link.addEventListener('click', function (e) {
+          e.preventDefault(); 
+          const targetId = this.getAttribute('href').substring(1); 
+          const targetSection = document.getElementById(targetId);
+
+          if (targetSection) {
+            const offset = targetSection.offsetTop - 80; 
+            window.scrollTo({
+              top: offset,
+              behavior: 'smooth',
+            });
+          }
+        });
+      });
+
+    </script>
+    <script>
+      document.getElementById("contact-form").addEventListener("submit", async function(e){
+      e.preventDefault();
+      const fullName= document.getElementById("fullName").value.trim();
+      const email = document.getElementById("email").value.trim();
+      const message = document.getElementById("message").value.trim();
+      const formMessage = document.getElementById("formMessage");
+
+      if(!fullName || !email || !message){
+        formMessage.innerHTML = '<p style="color: red;">All fields are required!</p>';
+        return;
+        
+      }
+
+      try{
+        const response = await fetch('send-mail.php',{
+          method: "POST",
+          headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+          body: `fullName=${encodeURIComponent(fullName)}&email=${encodeURIComponent(email)}&message=${encodeURIComponent(message)}`,
+
+        });
+        const result = await response.text();
+        formMessage.innerHTML = `<p style="color: green;">${result}</p>`;
+      }
+      catch(error){
+        formMessage.innerHTML = '<p style="color: red;">Something went wrong. Please try again later.</p>';
+      }
+    })
+    </script>
+  </body>
+</html>
